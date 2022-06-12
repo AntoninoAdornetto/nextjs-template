@@ -1,25 +1,13 @@
-# Next.js + Jest
+# Preferred Next.js configs
 
-This example shows how to configure Jest to work with Next.js.
+## Info 
+I tend to gravitate more towards Nextjs for front end projects, the only thing I dislike about using create-next-app is not having my source files set up in the src/ folder. This repo is a quick and painless solution. 
 
-This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScript.
+## Configs
+- Typescript
+- Jest 
+- Absolute imports
+- src/ 
 
-## How to Use
+Visit the [NextJS site](https://nextjs.org/) for more information
 
-Quickly get started using [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app#readme)!
-
-In your terminal, run the following command:
-
-```bash
-npx create-next-app --example with-jest with-jest-app
-# or
-yarn create next-app --example with-jest with-jest-app
-# or
-pnpm create next-app --example with-jest with-jest-app
-```
-
-## Run Jest Tests
-
-```bash
-npm test
-```
